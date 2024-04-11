@@ -28,85 +28,52 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <p>The Exercise</p>
+        <ol>
+          <li>
+            <p>From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</p>
+            <p>Ans: There are two kinds of problems in your life: the urgent and the important. The urgent are not important, and the important are never urgent.
+That being said, I would like to go through these tasks one by one and separate them by quadrant. Once I can see these tasks in the designated categories, I will be able to schedule them and accomplish my most important work.
+Once you know how to distinguish between designated categories (urgent and important tasks), you can begin separating your tasks into the four quadrants.
+Quadrant 1: Do
+Tasks in this quadrant are both urgent and important. They demand immediate attention as they have significant consequences and impact long-term goals. These are the tasks that are most pressing and likely causing you stress.
+Quadrant 2: Schedule
+This quadrant is for tasks that are important but not urgent. They contribute to long-term goals but don't require immediate action, allowing you to schedule them for later. Prioritize these tasks after completing those in Quadrant 1, employing strategies like the Pareto principle or the Pomodoro technique for effective time management.
+Quadrant 3: Delegate
+Quadrant three houses tasks that are urgent but not important to your long-term goals. Since these don't necessitate your personal attention or a specific skill set, delegate them to others. This approach not only lightens your workload but also aids in team development.
+Quadrant 4: Delete
+After sorting tasks into the first three quadrants, what remains are neither urgent nor important. These tasks are distractions hindering your progress and should be eliminated, fitting into the "delete" quadrant.
+These are the common support activities that one has to do at a certain point of time. I would like to rather organize the tasks by frequency also– Daily, Weekly, Biweekly, and Monthly:
+Daily Tasks
+Respond to 50+ support requests via email: Addressing customer queries to ensure prompt support.
+Dig through logs to troubleshoot a customer's broken project: With a focus on automating repetitive patterns.
+Help resolve billing issues for customers: Ensuring smooth financial transactions for user satisfaction.
+Manage a support team: Leading and guiding the support team on a daily basis.
+Work with 3rd party partners to track down tricky situations: Collaborating to solve complex customer issues.
+Act as a dedicated CSE for key customers: Providing specialized support to ensure their success.
+Work with engineering teams during incidents: Coordinating to resolve technical issues promptly.
+Work with people to figure out if the product is suitable for their use case: Guiding potential users daily.
+Weekly Tasks
+Write and maintain support articles and docs pages: Keeping documentation updated to help users self-serve.
+Create video tutorials for specific features or use cases: Enhancing learning resources for users.
+Identify, file (and, where possible, resolve) bugs: Keeping the product quality high by managing its issues.
+Find and recruit teammates for the support team: Strengthening the team with new talent.
+Help train and onboard new support teammates: Ensuring new members are well-prepared.
+Respond to queries on Twitter, Reddit, Hacker News, and other 3rd party sites: Engaging with the user community.
+Scheduling time-off coverage: Planning to maintain team efficiency and support coverage.
+Biweekly Tasks
+Run ticket review sessions to ensure tone consistency: Maintaining quality and uniformity in customer interactions.
+Work with the product team on new feature development based on feedback: Collaborating for product improvements.
+Monthly Tasks
+Analyze hundreds of support tickets to spot trends: Identifying larger trends to inform product development.
+Engage multiple users in public discussions: Managing broader community engagement and support.
+          </li>
+          <li>
+            <p>What do you want to learn or do more of at work?</p>
+            {/* Your answer here */}
+          </li>
+        </ol>
       </div>
     </main>
   );
