@@ -108,6 +108,53 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      {/* Add the provided text here */}
+      <div className="flex flex-col items-center justify-center max-w-3xl px-4 py-8 mx-auto bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:flex-row lg:p-0">
+        <p>The Exercise</p>
+        <ol>
+          <li>
+            <p>From this list, rank your 5 most favorite and 5 least favorite support tasks. Provide a brief explanation for each.</p>
+            <p>Ans: There are two kinds of problems in your life: the urgent and the important. The urgent are not important, and the important are never urgent. That being said, I would like to go through these tasks one by one and separate them by quadrant. Once I can see these tasks in the designated categories, I will be able to schedule them and accomplish my most important work. Once you know how to distinguish between designated categories (urgent and important tasks), you can begin separating your tasks into the four quadrants. Quadrant 1: Do Tasks in this quadrant are both urgent and important. They demand immediate attention as they have significant consequences and impact long-term goals. These are the tasks that are most pressing and likely causing you stress. Quadrant 2: Schedule This quadrant is for tasks that are important but not urgent. They contribute to long-term goals but don't require immediate action, allowing you to schedule them for later. Prioritize these tasks after completing those in Quadrant 1, employing strategies like the Pareto principle or the Pomodoro technique for effective time management. Quadrant 3: Delegate Quadrant three houses tasks that are urgent but not important to your long-term goals. Since these don't necessitate your personal attention or a specific skill set, delegate them to others. This approach not only lightens your workload but also aids in team development. Quadrant 4: Delete After sorting tasks into the first three quadrants, what remains are neither urgent nor important. These tasks are distractions hindering your progress and should be eliminated, fitting into the "delete" quadrant.</p>
+            <p>These are the common support activities that one has to do at a certain point of time. I would like to rather organize the tasks by frequency also– Daily, Weekly, Biweekly, and Monthly:</p>
+            <p><strong>Daily Tasks</strong></p>
+            <ul>
+              <li>Respond to 50+ support requests via email: Addressing customer queries to ensure prompt support.</li>
+              <li>Dig through logs to troubleshoot a customer's broken project: With a focus on automating repetitive patterns.</li>
+              <li>Help resolve billing issues for customers: Ensuring smooth financial transactions for user satisfaction.</li>
+              <li>Manage a support team: Leading and guiding the support team on a daily basis.</li>
+              <li>Work with 3rd party partners to track down tricky situations: Collaborating to solve complex customer issues.</li>
+              <li>Act as a dedicated CSE for key customers: Providing specialized support to ensure their success.</li>
+              <li>Work with engineering teams during incidents: Coordinating to resolve technical issues promptly.</li>
+              <li>Work with people to figure out if the product is suitable for their use case: Guiding potential users daily.</li>
+            </ul>
+            <p><strong>Weekly Tasks</strong></p>
+            <ul>
+              <li>Write and maintain support articles and docs pages: Keeping documentation updated to help users self-serve.</li>
+              <li>Create video tutorials for specific features or use cases: Enhancing learning resources for users.</li>
+              <li>Identify, file (and, where possible, resolve) bugs: Keeping the product quality high by managing its issues.</li>
+              <li>Find and recruit teammates for the support team: Strengthening the team with new talent.</li>
+              <li>Help train and onboard new support teammates: Ensuring new members are well-prepared.</li>
+              <li>Respond to queries on Twitter, Reddit, Hacker News, and other 3rd party sites: Engaging with the user community.</li>
+              <li>Scheduling time-off coverage: Planning to maintain team efficiency and support coverage.</li>
+            </ul>
+            <p><strong>Biweekly Tasks</strong></p>
+            <ul>
+              <li>Run ticket review sessions to ensure tone consistency: Maintaining quality and uniformity in customer interactions.</li>
+              <li>Work with the product team on new feature development based on feedback: Collaborating for product improvements.</li>
+            </ul>
+            <p><strong>Monthly Tasks</strong></p>
+            <ul>
+              <li>Analyze hundreds of support tickets to spot trends: Identifying larger trends to inform product development.</li>
+              <li>Engage multiple users in public discussions: Managing broader community engagement and support.</li>
+            </ul>
+          </li>
+          <li>
+            <p>What do you want to learn or do more of at work?</p>
+            {/* Your answer here */}
+          </li>
+        </ol>
+      </div>
     </main>
   );
 }
